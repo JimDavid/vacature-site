@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Smooch+Sans");
+
+@font-face {
+    font-family: 'Smooch Sans';
+    src: url('font/SmoochSans-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "Smooch Sans";
+    --main-blue2: rgba(53, 124, 190, 1);
+    --main-blue: rgba(43, 164, 200, 1);
+    --main-blue3: rgba(53, 154, 200, 1);
+    background-image: linear-gradient(180deg, var(--main-blue) 0%, var(--main-blue2) 50%, var(--main-blue3) 100%);
+    padding: 5px;
+    overflow-x: hidden;
+}
+
+.myDiv>div {
+    width: 350px;
+    height: 100px;
+    background-color: #dddddd;
+    border-radius: 4px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+/* Set the size of the div element that contains the map */
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 400px;
+    /* The width is the width of the web page */
+    position: relative;
+    float: right;
+    margin-right: 70px;
+    margin-top: 50px;
+}
+
+main {
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+header {
+    width: 120%;
+    box-shadow: 5px 5px 5px rgb(175, 219, 243);
+}
